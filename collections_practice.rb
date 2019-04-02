@@ -12,9 +12,14 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
+<<<<<<< HEAD
   array.sort_by do |a|
     a.length
   end
+=======
+
+    
+>>>>>>> 2281617765bec59d9ad7993050f40018eb434c50
 end
 
 def swap_elements(array)
@@ -33,7 +38,11 @@ def kesha_maker(array)
   array.each do |string|
     string.split("")
     string[2] = "$"
+<<<<<<< HEAD
     newArr << string
+=======
+    newArr << string.join("")
+>>>>>>> 2281617765bec59d9ad7993050f40018eb434c50
   end
   newArr
 end
